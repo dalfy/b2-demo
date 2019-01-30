@@ -1,0 +1,8 @@
+: 1 
+name: hello
+project: hello
+version: 0.1.0
+summary: Understand and figure out more about build2
+license: MIT
+depends: * build2 >= 0.9.0a
+depends: * bpkg >= 0.9.0a

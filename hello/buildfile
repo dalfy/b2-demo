@@ -1,0 +1,3 @@
+include ../libhello/
+
+exe{hello}: {hxx cxx}{**} lib{hello}
