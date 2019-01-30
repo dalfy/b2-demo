@@ -2,4 +2,4 @@
 cxx.poptions ="-I$out_root" "-I$src_root"
 
 lib{hello}: {hxx cxx}{**}
-lib{hello}: cxx.exports.poptions = "-I$out_root" "-I$src_root"
+lib{hello}: cxx.export.poptions = "-I$out_root" "-I$src_root"
